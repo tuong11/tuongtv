@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+</head>
+<style>
+    .items {
+        margin: 20px;
+    }
+    
+    .items {
+        margin: 20px;
+    }
+    
+    .owl-prev,
+    .owl-next {
+        position: absolute;
+        content: '';
+        top: 25%;
+    }
+    
+    .owl-prev {
+        left: 0;
+    }
+    
+    .owl-next {
+        right: 0;
+    }
+    
+    .owl-prev span,
+    .owl-next span {
+        font-size: 50px;
+        color: #787878;
+    }
+    
+    .owl-theme .owl-nav[class*="owl-"]:hover {
+        background-color: transparent;
+    }
+</style>
+
+<body>
+    <div id="intro" class="owl-carousel">
+        <div class="item first">
+            <div class="container">
+                <div class="row">
+                    <div class="carousel-caption-left colour-white">
+                        <h2>Title Text</h2>
+                        <h1>Sub title text here.</h1>
+                        <p>If you like you can even add a sentence or two here.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay-bg"></div>
+        </div>
+        <div class="item second">
+            <div class="container">
+                <div class="carousel-caption-left colour-white">
+                    <h2>Title Text</h2>
+                    <h1>Sub title text here.</h1>
+                    <p>If you like you can even add a sentence or two here.</p>
+                </div>
+            </div>
+            <div class="overlay-bg"></div>
+        </div>
+        <div class="item third">
+            <div class="container">
+                <div class="carousel-caption-left colour-white">
+                    <h2>Title Text</h2>
+                    <h1>Sub title text here.</h1>
+                    <p>If you like you can even add a sentence or two here.</p>
+                </div>
+            </div>
+            <div class="overlay-bg"></div>
+        </div>
+    </div>
+
+
+    <script src="OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script>
+        $("#intro").owlCarousel({
+
+                // Most important owl features
+
+                //Autoplay
+                autoPlay: 5000,
+                stopOnHover: false
+            )
+        }
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,479 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+body {
+    font-size: 14px;
+    color: #7e7f84;
+}
+
+.header {
+    width: 100%;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.link-content {
+    color: #7e7f84;
+}
+
+.navbar-brand {
+    display: none;
+}
+
+.link-card {
+    color: #67686d;
+}
+
+.link-content:hover {
+    text-decoration: none;
+    color: #f78673;
+}
+
+.header-banner {
+    min-height: 85px;
+    text-transform: uppercase;
+    border-bottom: solid 1px #eeeeee;
+}
+
+.fa-phone,
+.fa-envelope-o,
+.fa-cart-plus,
+.fa-search {
+    padding-right: 6px;
+}
+
+.fa-check-square-o {
+    padding-left: 5px;
+}
+
+.nav-link .dropdown-toggle {
+    font-weight: 500;
+    color: #fff;
+}
+
+.btn-outline-success {
+    color: #f45a40;
+    border-color: #f45a40;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 500;
+    text-decoration: none;
+    color: #7e7f84;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f45a40;
+}
+
+.banner,
+.header-contact {
+    display: flex;
+    align-items: center;
+}
+
+.text-contact {
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.check-out {
+    max-width: 320px;
+    min-height: 30px;
+    align-items: center;
+    border: solid 1px #eeeeee;
+    padding: 0 20px;
+}
+
+.check-contact {
+    font-size: 12px;
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+.products-nike {
+    position: relative;
+}
+
+.product-star {
+    position: absolute;
+    z-index: 1;
+    content: '';
+    top: 10px;
+    left: 10px;
+}
+
+.fa-star {
+    color: #f45a40;
+}
+
+.fa-star+.fa-star {
+    margin-left: -3px;
+}
+
+.star-dagger {
+    color: #fff;
+}
+
+.number-contact {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.header-nav {
+    width: 100%;
+}
+
+.nav-item+.nav-item {
+    padding-left: 35px;
+}
+
+.dropdown-toggle:hover {
+    color: #f45a40;
+}
+
+.dropdown-item {
+    text-transform: uppercase;
+}
+
+.slide-show {
+    width: 100%;
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
+.text-caption {
+    position: relative;
+}
+
+.title-slide {
+    font-size: 60px;
+}
+
+.carousel-caption {
+    max-width: 450px;
+    text-align: start;
+    align-items: center;
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 0;
+}
+
+.btn-caption {
+    margin: 20px 0;
+    min-width: 140px;
+    min-height: 40px;
+    background-color: #f45a40;
+    border: none;
+    color: #fff;
+}
+
+.shops-card {
+    padding: 0;
+}
+
+.product-title {
+    padding: 20px 0;
+}
+
+.link-product {
+    color: #f45a40;
+}
+
+.link-product:hover {
+    color: #f45a40;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 22px;
+}
+
+.shops {
+    margin: 65px 0;
+}
+
+.card-text {
+    color: #7e7f84;
+}
+
+.header-product {
+    text-align: center;
+    position: relative;
+    font-size: 22px;
+    margin-bottom: 65px;
+}
+
+.header-product::after,
+.header-product::before {
+    width: 15%;
+    height: 1px;
+    border: solid 1px #eeeeee;
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header-product::after {
+    left: 23%;
+}
+
+.header-product::before {
+    right: 23%;
+}
+
+.body-product {
+    border-bottom: solid 1px #eeeeee;
+    padding: 0 0 20px;
+    margin: 20px;
+}
+
+.card-summary {
+    font-style: italic;
+    font-size: 14px;
+    padding: 10px 0 15px;
+    text-transform: uppercase;
+}
+
+.card-product {
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 20px;
+}
+
+.text-product {
+    font-size: 10px;
+}
+
+.product-money {
+    color: #f78673;
+    font-weight: 500;
+}
+
+.title-product {
+    font-size: 18px;
+    color: #67686d;
+}
+
+.biruang-free {
+    margin: 65px 0;
+}
+
+.briuang-psd {
+    max-width: 170px;
+    margin: 45px 0;
+}
+
+.briuang-title {
+    font-size: 22px;
+}
+
+.briuang-tex {
+    color: #f78673;
+}
+
+.briuang-neque {
+    font-size: 18px;
+}
+
+.briuang-psd-lorem {
+    margin: 65px 0 0;
+    font-style: italic;
+    border-left: solid 1px #eeeeee;
+    padding-left: 20px;
+}
+
+.form-control {
+    max-width: 250px;
+    font-size: 14px;
+    border: none;
+    border-radius: 0;
+}
+
+.sign-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up {
+    width: 100%;
+    background-color: #f45a40;
+    min-height: 100px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.btn-sign-up {
+    min-width: 100px;
+    max-height: 35px;
+    background-color: #ff674f;
+    border: none;
+    color: #fff;
+}
+
+.sign-up-text {
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.sign-up-bold {
+    font-weight: bold;
+}
+
+.footer {
+    width: 100%;
+    min-height: 355px;
+    background-color: #2a2d34;
+    padding: 45px 0;
+}
+
+.footer-title {
+    text-transform: uppercase;
+    padding: 0 0 25px 0;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.footer-blog {
+    color: #fff;
+    font-weight: 500;
+}
+
+.footer-contact {
+    width: 100%;
+}
+
+.footer-contact_text {
+    padding: 10px 0 0 10px;
+    margin: 20px 0 0;
+    width: 100%;
+}
+
+.list-icon {
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    color: #656363;
+}
+
+.link-icon+.link-icon {
+    margin-left: 2px;
+}
+
+.link-icon {
+    color: #656363;
+}
+
+.link-icon:hover {
+    color: #ef4035;
+}
+
+.item-icon+.item-icon {
+    margin-left: 25px;
+}
+
+.fa-facebook {
+    color: #ef4035;
+}
+
+.link-icon-footer {
+    color: #fff;
+}
+
+.form-contact {
+    width: 100%;
+    min-height: 35px;
+    border: none;
+    padding-left: 10px;
+    border-radius: 0;
+}
+
+.slick-arrow {
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    background-size: cover;
+    border: 0;
+    color: transparent;
+    width: 42px;
+    height: 42px;
+    z-index: 1;
+}
+
+.slick-prev {
+    background-image: url(../images/prev.png);
+    left: 0;
+}
+
+.slick-next {
+    background-image: url(../images/next.png);
+    right: 0;
+}
+
+@media (max-width: 991px) {
+    .header,
+    .carousel-caption,
+    .shops,
+    .products,
+    .biruang-free,
+    .sign-up,
+    .footer-sm {
+        padding: 0 20px;
+    }
+    .navbar-brand {
+        display: block;
+        font-weight: 500;
+    }
+    .navbar-light .navbar-brand {
+        color: #7e7f84;
+    }
+    .card {
+        margin-bottom: 20px;
+    }
+    .briuang-psd-lorem {
+        margin: 20px 0;
+    }
+    .header-product::after,
+    .header-product::before {
+        display: none;
+    }
+    .briuang-psd {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+    .briuang-psd-lorem {
+        border: none;
+        padding-left: 0;
+    }
+    .header-banner {
+        display: none;
+    }
+    .footer-suport-sm{
+        margin-top: 40px;
+    }
+}

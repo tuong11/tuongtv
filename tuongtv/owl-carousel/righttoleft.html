@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+</head>
+<style>
+    .items {
+        margin: 20px;
+    }
+</style>
+
+<body>
+    <div class="owl-carousel owl-theme">
+        <div class="items"><img src="images/cumeo.jpg" alt=""></div>
+        <div class="items"><img src="images/cumeo2.jpg" alt=""></div>
+        <div class="items"><img src="images/cumeo3.jpg" alt=""></div>
+        <div class="items"><img src="images/cumeo4.jpg" alt=""></div>
+        <div class="items"><img src="images/cumeo5.jpg" alt=""></div>
+        <div class="items"><img src="images/cumeo6.jpg" alt=""></div>
+        <div class="items"><img src="images/cumeo7.jpg" alt=""></div>
+        <div class="items"><img src="images/cumeo3.jpg" alt=""></div>
+        <div class="items"><img src="images/cumeo4.jpg" alt=""></div>
+        <div class="items"><img src="images/cumeo6.jpg" alt=""></div>
+    </div>
+
+
+    <script src="OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            rtl: true, // chuyển slide từ trái sang phải
+            loop: false,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
+
+
+</body>
+
+</html>
