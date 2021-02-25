@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+</head>
+<style>
+    .items {
+        margin: 20px;
+    }
+    
+    .secondary {
+        text-decoration: none;
+        margin-left: 20px;
+        background-color: thistle;
+        width: 100%;
+        height: 100%;
+    }
+    
+    button.secondary,
+    .button.secondary {
+        background-color: #e7e7e7;
+        border-color: #b9b9b9;
+        color: #333;
+        padding: 30px;
+    }
+    
+    .btn-link {
+        margin-top: 40px;
+    }
+</style>
+
+<body>
+    <div class="owl-carousel owl-theme">
+        <div class="items" data-hash="one"><img src="images/cumeo.jpg" alt=""></div>
+        <div class="items"><img src="images/cumeo2.jpg" alt=""></div>
+        <div class="items" data-hash="three"><img src="images/cumeo3.jpg" alt=""></div>
+        <div class="items"><img src="images/cumeo4.jpg" alt=""></div>
+        <div class="items" data-hash="five"><img src="images/cumeo5.jpg" alt=""></div>
+        <div class="items"><img src="images/cumeo6.jpg" alt=""></div>
+        <div class="items" data-hash="seven"><img src="images/cumeo7.jpg" alt=""></div>
+        <div class="items"><img src="images/cumeo5.jpg" alt=""></div>
+        <div class="items" data-hash="ten"><img src="images/cumeo6.jpg" alt=""></div>
+    </div>
+    <div class="btn-link">
+        <a class="button secondary url" href="#one">one</a>
+        <a class="button secondary url" href="#three">three</a>
+        <a class="button secondary url" href="#five">five</a>
+        <a class="button secondary url" href="#seven">seven</a>
+        <a class="button secondary url" href="#ten">ten</a>
+    </div>
+
+
+    <script src="OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            center: true, // chạy giữa hình ảnh đầu và cuối
+            items: 4,
+            loop: false, // vòng lặp true là cho phép lặp lại vô hạn false là không lặp
+            margin: 10,
+            URLhashListener: true,
+            autoplayHoverPause: true,
+            startPosition: 'URLHash' // cho phép click vào btn chỉ tới đúng vị trí slide muốn tới
+        });
+    </script>
+
+
+</body>
+
+</html>

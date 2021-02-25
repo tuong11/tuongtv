@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+</head>
+<style>
+    .items {
+        margin: 20px;
+    }
+    
+    .owl-prev,
+    .owl-next {
+        position: absolute;
+        content: '';
+        top: 30%;
+    }
+    
+    .owl-prev {
+        left: -30px;
+    }
+    
+    .owl-next {
+        right: -30px;
+    }
+    
+    .owl-prev span,
+    .owl-next span {
+        font-size: 60px;
+        color: #787878;
+    }
+    
+    .owl-theme .owl-nav[class*="owl-"]:hover {
+        background-color: transparent;
+    }
+</style>
+
+<body>
+    <div class="owl-carousel owl-theme">
+        <div class="items" data-merge="1"><img src="images/cumeo.jpg" alt=""></div>
+        <div class="items" data-merge="2"><img src="images/cumeo2.jpg" alt=""></div>
+        <div class="items" data-merge="3"><img src="images/cumeo3.jpg" alt=""></div>
+        <div class="items" data-merge="2"><img src="images/cumeo4.jpg" alt=""></div>
+        <div class="items" data-merge="3"><img src="images/cumeo5.jpg" alt=""></div>
+        <div class="items" data-merge="2"><img src="images/cumeo6.jpg" alt=""></div>
+        <div class="items"><img src="images/cumeo7.jpg" alt=""></div>
+        <div class="items"><img src="images/cumeo5.jpg" alt=""></div>
+        <div class="items"><img src="images/cumeo6.jpg" alt=""></div>
+
+    </div>
+
+
+    <script src="OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            items: 11,
+            autoplay: true, // slide chạy tự động
+
+            autoplayHoverPause: true, // di chuot vào sẽ không chạy slide
+            loop: true,
+            margin: 10,
+            merge: true, // slide vẫn giữ kích thước nếu phóng to trình duyệt
+
+            responsive: {
+                678: {
+                    mergeFit: true
+                },
+                1000: {
+                    mergeFit: false
+                }
+            }
+        });
+    </script>
+
+
+</body>
+
+</html>

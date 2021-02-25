@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Briuang</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css" />
+
+</head>
+<style>
+    .items {
+        width: 100%;
+    }
+    
+    .items img {
+        width: 100%;
+    }
+    
+    .multiple-items {
+        width: 960px;
+        height: 300;
+    }
+    
+    button,
+    select {
+        text-transform: none;
+        display: none;
+    }
+</style>
+
+<body>
+
+    <div class="multiple-items">
+        <div class="items"><img src="images/cumeo.jpg" alt=""></div>
+        <div class="items"><img src="images/cumeo2.jpg" alt=""></div>
+        <div class="items"><img src="images/cumeo3.jpg" alt=""></div>
+        <div class="items"><img src="images/cumeo4.jpg" alt=""></div>
+
+
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('.multiple-items').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true
+
+        });
+    </script>
+</body>
+
+</html>
